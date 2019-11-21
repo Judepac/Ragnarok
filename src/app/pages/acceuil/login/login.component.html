@@ -1,8 +1,17 @@
 <div class="right_page">
-  <mat-form-field>
-      <mat-label><mat-icon>favorite</mat-icon> Nom utilisateur</mat-label>
-      <input matInput >
+
+  <form>
+    <mat-form-field>
+      <mat-label><mat-icon>person</mat-icon> Nom utilisateur</mat-label>
+      <input [(ngModel)]="user" name="user" matInput >
     </mat-form-field>
+
+    <mat-form-field>
+      <mat-label><mat-icon>lock</mat-icon> Mot de passe</mat-label>
+      <input [(ngModel)]="password" name="password" matInput >
+    </mat-form-field>
+  </form>
+
 
 </div>
 

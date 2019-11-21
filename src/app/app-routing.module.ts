@@ -4,8 +4,8 @@ import { AcceuilComponent } from './pages/acceuil/acceuil.component';
 
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: '/acceuil' },
-  { path: '/acceuil', component: AcceuilComponent }
+  { path: '', pathMatch: 'full', redirectTo: 'acceuil' },
+  { path: 'acceuil', component: AcceuilComponent }
 ];
 
 @NgModule({
